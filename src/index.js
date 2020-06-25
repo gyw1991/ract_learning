@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import App from './App';
+// import  App from './01-组件的生命周期/App'
+// import  App from './02-组件通信/01-组件嵌套'
+// import App from './02-组件通信/02-组件通信'
+// import App from './02-组件通信/03-参数类型检查'
+import App from './02-组件通信/04-函数传递（子传父）'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App/>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
